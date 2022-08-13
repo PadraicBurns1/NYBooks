@@ -44,3 +44,9 @@ public struct Book: Decodable {
     }
     
 }
+
+public struct Books: Decodable {
+    
+    let books: [Book]
+    
+}
