@@ -17,15 +17,4 @@ public struct Results: Decodable {
     
     let books: [Book]
     
-    init(books: [Book]) {
-        self.books = [Book.getMock()]
-    }
-    
 }
-
-public struct Books: Decodable {
-    
-    let books: [Book]
-    
-}
-
